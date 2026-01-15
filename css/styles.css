@@ -14,15 +14,31 @@ body {
     text-decoration: none;
     color: #2E2F42;
     text-transform: uppercase;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
 }
 
 .logo-accent {
     color: #4D5AE5;
 }
 
+.address, 
+.address-list,
+.features-list,
+.team-list,
+.portfolio-list {
+    font-style: normal;
+}
+
+.nav-list,
+.address-list,
+.features-list,
+.team-list,
+.portfolio-list {
+    list-style: none;
+}
 .nav-list,
 .address-list {
-    list-style: none;
     font-size: 16px;
 }
 
@@ -33,15 +49,16 @@ body {
     color: #404BBF;
 }
 
-
 .nav-link {
     color: #2E2F42;
     font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
 .nav-link,
@@ -54,6 +71,8 @@ body {
 .mail, 
 .tel {
     color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /*Main*/
@@ -67,6 +86,7 @@ body {
     font-weight: 700;
     text-align: center;
     line-height: 1.071;
+    letter-spacing: 0.02em;
 }
 
 .button {
@@ -74,6 +94,9 @@ body {
     color: #fff;
     font-size: 16px;
     cursor: pointer;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .button:hover,
@@ -89,8 +112,15 @@ body {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
+.features-text,
+.portfolio-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 /*Our Team*/
 .section-our-team {
     background-color: #F4F4FD;
@@ -102,11 +132,23 @@ body {
     font-weight: 700;
     text-align: center;
     line-height: 1.1;
+    letter-spacing: 0.02em;
 }
 
-.team-name,
+.team-list-item {
+    background-color: #fff;
+}
+
+.team-name {
+    text-align: center;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+}
 .team-position {
     text-align: center;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    color: #434455;
 }
 
 /*Footer*/
