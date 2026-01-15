@@ -26,9 +26,22 @@ body {
     font-size: 16px;
 }
 
+.mail:hover,
+.mail:focus,
+.tel:hover,
+.tel:focus {
+    color: #404BBF;
+}
+
+
 .nav-link {
     color: #2E2F42;
     font-weight: 500;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #4D5AE5;
 }
 
 .nav-link,
@@ -40,8 +53,6 @@ body {
 
 .mail, 
 .tel {
-    font-weight: 400;
-    font-style: normal;
     color: #434455;
 }
 
@@ -63,6 +74,11 @@ body {
     color: #fff;
     font-size: 16px;
     cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
 }
 
 /*Our features*/
