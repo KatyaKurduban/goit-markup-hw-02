@@ -6,6 +6,10 @@ body {
     line-height: 1.5;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /*Header*/
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -14,7 +18,7 @@ body {
     text-decoration: none;
     color: #2E2F42;
     text-transform: uppercase;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
 }
 
@@ -85,7 +89,7 @@ body {
     font-size: 56px;
     font-weight: 700;
     text-align: center;
-    line-height: 1.071;
+    line-height: 1.07;
     letter-spacing: 0.02em;
 }
 
@@ -94,7 +98,7 @@ body {
     color: #fff;
     font-size: 16px;
     cursor: pointer;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
 }
@@ -131,7 +135,7 @@ body {
     font-size: 36px;
     font-weight: 700;
     text-align: center;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
 }
 
@@ -158,8 +162,13 @@ body {
 
 .footer-text {
     color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
 
 .footer .logo {
     color: #F4F4FD;
+}
+
+.logo-accent {
+    color: #4D5AE5;
 }
